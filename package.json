@@ -2,15 +2,27 @@
   "name": "weatherapp",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "config.js",
   "scripts": {
+    "start":"nodemon src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prve17/Weather-App.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prve17/Weather-App/issues"
+  },
+  "homepage": "https://github.com/prve17/Weather-App#readme",
   "dependencies": {
     "express": "^4.18.1",
     "hbs": "^4.2.0",
     "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
   }
 }
